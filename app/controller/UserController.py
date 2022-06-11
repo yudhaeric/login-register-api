@@ -42,8 +42,7 @@ def save():
         email = request.form.get('email')
         password = request.form.get('password')
 
-        users = User(name=name, email=email)
-        users.setPassword(password)
+        users = User(name=name, email=email, password=password)
         db.session.add(users)
         db.session.commit()
 
