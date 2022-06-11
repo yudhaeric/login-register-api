@@ -4,6 +4,7 @@
 2. Clone the repository
 ## Run the App (without docker)
 1. Create a virtual env
+
     ```
     pip install virtualenv
     ```
@@ -17,10 +18,12 @@
     env/Scripts/activate
     ```
 2. Run installation
+
     ```
     pip install -r requirements.txt
     ```
 3. Create file .env & connect to your database 
+
     ```
     FLASK_APP = server.py
     FLASK_ENV = development
@@ -31,6 +34,7 @@
     DB_PASSWORD=
     ```
 5. Run the app 
+
     ```
     flask run
     ```
