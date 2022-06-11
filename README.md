@@ -12,10 +12,7 @@
     virtualenv env
     ```
     ```
-    Set-ExecutionPolicy Unrestricted -Scope Process
-    ```
-    ```
-    env/Scripts/activate
+    source env/Scripts/activate
     ```
 2. Run installation
     ```
