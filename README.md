@@ -6,8 +6,16 @@
 1. Create a virtual env
 
     ```
-    python3 -m venv env
-    source env/bin/activate
+    pip install virtualenv
+    ```
+    ```
+    virtualenv env
+    ```
+    ```
+    Set-ExecutionPolicy Unrestricted -Scope Process
+    ```
+    ```
+    env/Scripts/activate
     ```
 2. Run installation
     ```
@@ -15,5 +23,5 @@
     ```
 3. Run the app 
     ```
-    python app/app.py
+    flask run
     ```
